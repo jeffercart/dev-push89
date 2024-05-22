@@ -6,4 +6,15 @@ body {
   text-align: center;
 }
 
+.toggle-button {
+  position: fixed;
+  padding: 1px; /* Fija el botón en la pantalla */
+  top: 1em; /* Ajusta la distancia desde la parte superior */
+  left: 1em; /* Ajusta la distancia desde la parte izquierda */
+  width: 2.25em; /* Ajusta el tamaño según sea necesario */
+  height: 2.25em; /* Ajusta el tamaño según sea necesario */
+  cursor: pointer;
+  z-index: 1001;
+}
+
 

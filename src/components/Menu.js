@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './menu.css'
-import logo from './img/logo.png'
+import './menu.css';
+import logo from './img/logo.png';
 
 const Menu = () => {
 
@@ -12,7 +12,7 @@ const Menu = () => {
 
      return (
         <header className="Menu">
-              <h1 className='Menu-h1'>
+               <h1 className={ `Menu-h1 ${men ? 'hidden' : ''}` }>
                    <a target='_blank' rel="noreferrer" href='https://www.instagram.com/_push89/' className='Menu-a'>
                    <img src={ logo } alt="Pushi" />
                    </a>
@@ -29,8 +29,7 @@ const Menu = () => {
                 </button>
        <nav className={ `Menu-nav ${ men ? 'isActive' : '' }` }>
                    <ul className='Menu-ul'>
-                        <li className='Menu-li'><a target='_blank' rel="noreferrer" href='https://www.facebook.com/office.push89' className='Menu-a'>FB</a></li>
-                        <li className='Menu-li'><a target='_blank' rel="noreferrer" href='https://twitter.com/_push89' className='Menu-a'>X</a></li>
+                        <li className='Menu-li'><a target='_blank' rel="noreferrer" href='https://linktr.ee/_push89' className='Menu-a'>Links</a></li>
                         <li className='Menu-li'><a target='_blank' rel="noreferrer" href='https://jeffercart.github.io/loop_lines/' className='Menu-a'>Demo</a></li>
                         <li className='Menu-li'><a target='_blank' rel="noreferrer" href='https://forms.gle/cxKVqdsfZRt2YPQr8' className='Menu-a'>Contact</a></li>
                    </ul>

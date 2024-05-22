@@ -1,0 +1,28 @@
+/* src/components/Overlay.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+    display: flex;
+    font-family: 'Courier new', sans-serif;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+
+.overlay h1 {
+    font-size: large;
+  }
+.overlay p {
+    font-size: smaller;
+  }
+  
+  .overlay-content {
+    background: rgba(176, 163, 163, 0.412);
+    padding: 20px;
+    text-align: center;
+  }
+  

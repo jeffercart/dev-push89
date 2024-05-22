@@ -9,8 +9,13 @@
     align-items: center;
     font-family: 'Courier new', sans-serif;
 
-    color: whitesmoke;
+    color: rgb(255, 251, 219);
 }
+
+.Menu-h1 {
+    visibility: hidden; /* Por defecto, visible */
+  }
+  
 
 .Menu-button {
     display: flex;
@@ -20,7 +25,7 @@
 .Menu-svg {
     width: 2em;
     height: 2em;
-    fill: whitesmoke;
+    fill: rgb(255, 251, 219);
 }
 
 .Menu-nav {

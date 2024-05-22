@@ -35,7 +35,7 @@ const Pushi = () => {
         if (bRef.current < p.height / 6) {
           p.text(")", p.width / 2, p.height / 2);
         } else {
-          p.fill(255);
+          p.fill(255, 251, 215);
           p.text("9", p.width / 2, p.height / 2);
         }
         p.pop();
@@ -46,7 +46,7 @@ const Pushi = () => {
         if (bRef.current < p.height / 6) {
           p.text("(", p.width / 2, p.height / 2);
         } else {
-          p.fill(255);
+          p.fill(255, 251, 219);
           p.text("8", p.width / 2, p.height / 2);
         }
         p.pop();
@@ -88,7 +88,7 @@ const Pushi = () => {
         bRef.current = alto * p.cos(velY * yRef.current) + p.sin(xRef.current);
         aRef.current = ancho * p.sin(velX * xRef.current);
         p.translate(aRef.current, bRef.current);
-        p.fill(0, 255 - bRef.current, 255 - aRef.current);
+        p.fill(200, 135 - bRef.current, 5- aRef.current);
       }
     }, sketchRef.current);
 
